@@ -1,0 +1,92 @@
+=============================================================================
+INTEGRATED JET SHAPES ANALYSIS FOR PHOTOPRODUCTION EVENTS
+=============================================================================
+Analysis Parameters:
+  Analysis Mode:      INCLUSIVE (all jets)
+  Jet Algorithm:      Anti-kT
+  Jet Radius:         1
+  Base Jet ET:        > 10 GeV (all jets)
+  Leading Jet ET:     > 0 GeV (inclusive)
+  Jet Eta Range:      [1, 1.5]
+  r Range:            [0.1, 1] with step 0.1
+=============================================================================
+
+Successfully opened input file: /Users/siddharthsingh/Analysis/ph-new/evt/allevents_pt5GeV/eic141_pt5/eic141_pT5.root
+Log file: int_alljets_eic141_pT5_eta_1.00_1.50_etMin_10.log
+
+  Found 350587 events
+
+  Events processed: 350587
+  Events with jets: 9986 (2.84837%)
+  Events selected (≥1 jet): 9986 (2.84837%)
+
+  Found 139994 events
+
+  Events processed: 139994
+  Events with jets: 5082 (3.63016%)
+  Events selected (≥1 jet): 5082 (3.63016%)
+
+  Found 509009 events
+
+  Events processed: 509009
+  Events with jets: 14528 (2.85417%)
+  Events selected (≥1 jet): 14528 (2.85417%)
+
+  Found 999590 events
+
+  Events processed: 999590
+  Events with jets: 29596 (2.96081%)
+  Events selected (≥1 jet): 29596 (2.96081%)
+
+  Found 682540 events
+
+  Events processed: 682540
+  Events with jets: 22143 (3.24421%)
+  Events selected (≥1 jet): 22143 (3.24421%)
+
+  Found 317050 events
+
+  Events processed: 317050
+  Events with jets: 7453 (2.35073%)
+  Events selected (≥1 jet): 7453 (2.35073%)
+
+=============================================================================
+INTEGRATED JET SHAPE RESULTS
+=============================================================================
+Requirement: At least 1 jet passing cuts
+All Jets: ET > 10 GeV, 1 < η < 1.5
+=============================================================================
+
+     r      QQ_Events      GG_Events      GQ_EventsCombined_EventsResolved_Events  Direct_Events
+ -----  -------------  -------------  -------------  -------------  -------------  -------------
+   0.1         0.1786         0.0613         0.1266         0.1329         0.1173         0.1794
+   0.2         0.4313         0.1989         0.3284         0.3409         0.3092         0.4350
+   0.3         0.6121         0.3496         0.5013         0.5126         0.4770         0.6185
+   0.4         0.7282         0.4900         0.6298         0.6390         0.6061         0.7367
+   0.5         0.8063         0.6113         0.7270         0.7339         0.7060         0.8168
+   0.6         0.8623         0.7145         0.8026         0.8076         0.7862         0.8711
+   0.7         0.9044         0.8002         0.8615         0.8655         0.8501         0.9110
+   0.8         0.9368         0.8702         0.9094         0.9119         0.9018         0.9421
+   0.9         0.9602         0.9209         0.9444         0.9457         0.9397         0.9636
+   1.0         0.9729         0.9512         0.9650         0.9653         0.9621         0.9747
+
+=============================================================================
+Number of events contributing to each category:
+=============================================================================
+           QQ_Events: 9986 events
+           GG_Events: 5082 events
+           GQ_Events: 14528 events
+     Combined_Events: 29596 events
+     Resolved_Events: 22143 events
+       Direct_Events: 7453 events
+
+=============================================================================
+OVERALL STATISTICS
+=============================================================================
+Total events processed: 2998770
+Total events selected: 88788 (2.9608%)
+
+=============================================================================
+ANALYSIS COMPLETED SUCCESSFULLY!
+Log file: int_alljets_eic141_pT5_eta_1.00_1.50_etMin_10.log
+=============================================================================

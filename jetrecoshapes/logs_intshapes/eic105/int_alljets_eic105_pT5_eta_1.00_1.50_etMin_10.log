@@ -1,0 +1,92 @@
+=============================================================================
+INTEGRATED JET SHAPES ANALYSIS FOR PHOTOPRODUCTION EVENTS
+=============================================================================
+Analysis Parameters:
+  Analysis Mode:      INCLUSIVE (all jets)
+  Jet Algorithm:      Anti-kT
+  Jet Radius:         1
+  Base Jet ET:        > 10 GeV (all jets)
+  Leading Jet ET:     > 0 GeV (inclusive)
+  Jet Eta Range:      [1, 1.5]
+  r Range:            [0.1, 1] with step 0.1
+=============================================================================
+
+Successfully opened input file: /Users/siddharthsingh/Analysis/ph-new/evt/allevents_pt5GeV/eic105_pt5/eic105_pT5.root
+Log file: int_alljets_eic105_pT5_eta_1.00_1.50_etMin_10.log
+
+  Found 376231 events
+
+  Events processed: 376231
+  Events with jets: 9824 (2.61116%)
+  Events selected (≥1 jet): 9824 (2.61116%)
+
+  Found 107450 events
+
+  Events processed: 107450
+  Events with jets: 2520 (2.34528%)
+  Events selected (≥1 jet): 2520 (2.34528%)
+
+  Found 515662 events
+
+  Events processed: 515662
+  Events with jets: 11448 (2.22006%)
+  Events selected (≥1 jet): 11448 (2.22006%)
+
+  Found 999343 events
+
+  Events processed: 999343
+  Events with jets: 23792 (2.38076%)
+  Events selected (≥1 jet): 23792 (2.38076%)
+
+  Found 624636 events
+
+  Events processed: 624636
+  Events with jets: 15486 (2.4792%)
+  Events selected (≥1 jet): 15486 (2.4792%)
+
+  Found 374707 events
+
+  Events processed: 374707
+  Events with jets: 8306 (2.21667%)
+  Events selected (≥1 jet): 8306 (2.21667%)
+
+=============================================================================
+INTEGRATED JET SHAPE RESULTS
+=============================================================================
+Requirement: At least 1 jet passing cuts
+All Jets: ET > 10 GeV, 1 < η < 1.5
+=============================================================================
+
+     r      QQ_Events      GG_Events      GQ_EventsCombined_EventsResolved_Events  Direct_Events
+ -----  -------------  -------------  -------------  -------------  -------------  -------------
+   0.1         0.1848         0.0682         0.1442         0.1529         0.1339         0.1885
+   0.2         0.4474         0.2150         0.3616         0.3815         0.3449         0.4498
+   0.3         0.6304         0.3741         0.5412         0.5603         0.5213         0.6330
+   0.4         0.7453         0.5204         0.6679         0.6843         0.6497         0.7487
+   0.5         0.8210         0.6393         0.7597         0.7722         0.7440         0.8248
+   0.6         0.8736         0.7363         0.8286         0.8374         0.8155         0.8782
+   0.7         0.9120         0.8177         0.8812         0.8872         0.8719         0.9158
+   0.8         0.9421         0.8823         0.9220         0.9261         0.9161         0.9447
+   0.9         0.9628         0.9303         0.9519         0.9541         0.9485         0.9647
+   1.0         0.9737         0.9568         0.9685         0.9694         0.9664         0.9750
+
+=============================================================================
+Number of events contributing to each category:
+=============================================================================
+           QQ_Events: 9824 events
+           GG_Events: 2520 events
+           GQ_Events: 11448 events
+     Combined_Events: 23792 events
+     Resolved_Events: 15486 events
+       Direct_Events: 8306 events
+
+=============================================================================
+OVERALL STATISTICS
+=============================================================================
+Total events processed: 2998029
+Total events selected: 71376 (2.3808%)
+
+=============================================================================
+ANALYSIS COMPLETED SUCCESSFULLY!
+Log file: int_alljets_eic105_pT5_eta_1.00_1.50_etMin_10.log
+=============================================================================

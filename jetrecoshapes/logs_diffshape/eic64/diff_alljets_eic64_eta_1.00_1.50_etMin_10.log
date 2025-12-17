@@ -1,0 +1,93 @@
+=============================================================================
+DIFFERENTIAL JET SHAPES ANALYSIS FOR PHOTOPRODUCTION EVENTS
+=============================================================================
+Analysis Parameters:
+  Analysis Mode:      INCLUSIVE (all jets)
+  Jet Algorithm:      Anti-kT
+  Jet Radius:         1
+  Base Jet ET:        > 10 GeV (all jets)
+  Leading Jet ET:     > 0 GeV (inclusive)
+  Jet Eta Range:      [1, 1.5]
+  r Range:             [0.1, 1] (annulus centers) with step 0.1
+  Annulus Width:      ±0.05 around r
+=============================================================================
+
+Successfully opened input file: /Users/siddharthsingh/Analysis/ph-new/evt/allevents_pt5GeV/eic64_pt5/eic64.root
+Log file: diff_alljets_eic64_eta_1.00_1.50_etMin_10.log
+
+Processing QQ_Events...
+
+  Events processed: 401938
+  Events with jets: 6840 (1.70175%)
+  Events selected (≥1 jet): 6840 (1.70175%)
+
+Processing GG_Events...
+
+  Events processed: 58941
+  Events with jets: 1074 (1.82216%)
+  Events selected (≥1 jet): 1074 (1.82216%)
+
+Processing GQ_Events...
+
+  Events processed: 537682
+  Events with jets: 7646 (1.42203%)
+  Events selected (≥1 jet): 7646 (1.42203%)
+
+Processing Combined_Events...
+
+  Events processed: 998561
+  Events with jets: 15560 (1.55824%)
+  Events selected (≥1 jet): 15560 (1.55824%)
+
+Processing Resolved_Events...
+
+  Events processed: 501385
+  Events with jets: 8949 (1.78486%)
+  Events selected (≥1 jet): 8949 (1.78486%)
+
+Processing Direct_Events...
+
+  Events processed: 497176
+  Events with jets: 6611 (1.32971%)
+  Events selected (≥1 jet): 6611 (1.32971%)
+
+=============================================================================
+DIFFERENTIAL JET SHAPE RESULTS
+=============================================================================
+Requirement: At least 1 jet passing cuts
+All Jets: ET > 10 GeV, 1 < η < 1.5
+=============================================================================
+
+     r      QQ_Events      GG_Events      GQ_EventsCombined_EventsResolved_Events  Direct_Events
+ -----  -------------  -------------  -------------  -------------  -------------  -------------
+  0.10         3.1969         1.5157         2.5077         2.7422         2.4412         3.1496
+  0.20         2.3892         1.9342         2.2267         2.2780         2.2169         2.3606
+  0.30         1.4322         1.7226         1.5797         1.5247         1.5322         1.5147
+  0.40         0.8947         1.3443         1.1316         1.0422         1.1043         0.9580
+  0.50         0.6225         1.1092         0.8141         0.7502         0.8197         0.6563
+  0.60         0.4458         0.8719         0.6197         0.5607         0.6180         0.4830
+  0.70         0.3458         0.7479         0.4922         0.4455         0.5091         0.3595
+  0.80         0.2681         0.5836         0.3952         0.3523         0.3988         0.2894
+  0.90         0.1735         0.3877         0.2502         0.2260         0.2613         0.1781
+  1.00         0.0244         0.0596         0.0359         0.0325         0.0384         0.0245
+
+=============================================================================
+Number of events contributing to each category:
+=============================================================================
+           QQ_Events: 6840 events
+           GG_Events: 1074 events
+           GQ_Events: 7646 events
+     Combined_Events: 15560 events
+     Resolved_Events: 8949 events
+       Direct_Events: 6611 events
+
+=============================================================================
+OVERALL STATISTICS
+=============================================================================
+Total events processed: 2995683
+Total events selected: 46680 (1.5582%)
+
+=============================================================================
+ANALYSIS COMPLETED SUCCESSFULLY!
+Log file: diff_alljets_eic64_eta_1.00_1.50_etMin_10.log
+=============================================================================

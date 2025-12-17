@@ -1,0 +1,98 @@
+=============================================================================
+INTEGRATED JET SHAPES ANALYSIS FOR PHOTOPRODUCTION EVENTS
+=============================================================================
+Analysis Parameters:
+  Analysis Mode:      INCLUSIVE (all jets)
+  Jet Algorithm:      Anti-kT
+  Jet Radius:         1
+  Base Jet ET:        > 17 GeV (all jets)
+  Leading Jet ET:     > 0 GeV (inclusive)
+  Jet Eta Range:      [-4, 4]
+  r Range:            [0.1, 1] with step 0.1
+=============================================================================
+
+Successfully opened input file: /Users/siddharthsingh/Analysis/ph-new/evt/allevents_pt7GeV/hera300_pT7/hera300_pT7.root
+Log file: int_alljets_hera300_pT7_eta_-4.000000_4.000000_etMin_17.log
+
+Processing QQ_Events...
+  Found 318964 events
+    Processing event 0/318964 (0%)
+  Events processed: 318964
+  Events with jets: 19108 (5.99064%)
+  Events selected (≥1 jet): 19108 (5.99064%)
+
+Processing GG_Events...
+  Found 176498 events
+    Processing event 0/176498 (0%)
+  Events processed: 176498
+  Events with jets: 9635 (5.45899%)
+  Events selected (≥1 jet): 9635 (5.45899%)
+
+Processing GQ_Events...
+  Found 504451 events
+    Processing event 0/504451 (0%)
+  Events processed: 504451
+  Events with jets: 28094 (5.56922%)
+  Events selected (≥1 jet): 28094 (5.56922%)
+
+Processing Combined_Events...
+  Found 999913 events
+    Processing event 0/999913 (0%)
+  Events processed: 999913
+  Events with jets: 56837 (5.68419%)
+  Events selected (≥1 jet): 56837 (5.68419%)
+
+Processing Resolved_Events...
+  Found 744002 events
+    Processing event 0/744002 (0%)
+  Events processed: 744002
+  Events with jets: 43688 (5.87203%)
+  Events selected (≥1 jet): 43688 (5.87203%)
+
+Processing Direct_Events...
+  Found 255911 events
+    Processing event 0/255911 (0%)
+  Events processed: 255911
+  Events with jets: 13149 (5.13811%)
+  Events selected (≥1 jet): 13149 (5.13811%)
+
+=============================================================================
+INTEGRATED JET SHAPE RESULTS
+=============================================================================
+Requirement: At least 1 jet passing cuts
+All Jets: ET > 17 GeV, -4 < η < 4
+=============================================================================
+
+     r      QQ_Events      GG_Events      GQ_EventsCombined_EventsResolved_Events  Direct_Events
+ -----  -------------  -------------  -------------  -------------  -------------  -------------
+   0.1         0.3090         0.1086         0.2181         0.2301         0.2060         0.3102
+   0.2         0.5786         0.2953         0.4578         0.4709         0.4379         0.5804
+   0.3         0.7199         0.4617         0.6156         0.6245         0.5949         0.7232
+   0.4         0.8014         0.5930         0.7205         0.7261         0.7017         0.8069
+   0.5         0.8549         0.6954         0.7939         0.7977         0.7787         0.8610
+   0.6         0.8927         0.7782         0.8495         0.8520         0.8379         0.8985
+   0.7         0.9227         0.8455         0.8934         0.8951         0.8856         0.9268
+   0.8         0.9466         0.9029         0.9302         0.9311         0.9258         0.9488
+   0.9         0.9662         0.9512         0.9602         0.9607         0.9590         0.9661
+   1.0         0.9767         0.9758         0.9762         0.9763         0.9766         0.9753
+
+=============================================================================
+Number of events contributing to each category:
+=============================================================================
+           QQ_Events: 19108 events
+           GG_Events: 9635 events
+           GQ_Events: 28094 events
+     Combined_Events: 56837 events
+     Resolved_Events: 43688 events
+       Direct_Events: 13149 events
+
+=============================================================================
+OVERALL STATISTICS
+=============================================================================
+Total events processed: 2999739
+Total events selected: 170511 (5.6842%)
+
+=============================================================================
+ANALYSIS COMPLETED SUCCESSFULLY!
+Log file: int_alljets_hera300_pT7_eta_-4.000000_4.000000_etMin_17.log
+=============================================================================

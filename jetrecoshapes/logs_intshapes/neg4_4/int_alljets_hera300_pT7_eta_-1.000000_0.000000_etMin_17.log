@@ -1,0 +1,98 @@
+=============================================================================
+INTEGRATED JET SHAPES ANALYSIS FOR PHOTOPRODUCTION EVENTS
+=============================================================================
+Analysis Parameters:
+  Analysis Mode:      INCLUSIVE (all jets)
+  Jet Algorithm:      Anti-kT
+  Jet Radius:         1
+  Base Jet ET:        > 17 GeV (all jets)
+  Leading Jet ET:     > 0 GeV (inclusive)
+  Jet Eta Range:      [-1, 0]
+  r Range:            [0.1, 1] with step 0.1
+=============================================================================
+
+Successfully opened input file: /Users/siddharthsingh/Analysis/ph-new/evt/allevents_pt7GeV/hera300_pT7/hera300_pT7.root
+Log file: int_alljets_hera300_pT7_eta_-1.000000_0.000000_etMin_17.log
+
+Processing QQ_Events...
+  Found 318964 events
+    Processing event 0/318964 (0%)    Processing event 100000/318964 (31%)    Processing event 200000/318964 (62%)    Processing event 300000/318964 (94%)
+  Events processed: 318964
+  Events with jets: 3194 (1.00137%)
+  Events selected (≥1 jet): 3194 (1.00137%)
+
+Processing GG_Events...
+  Found 176498 events
+    Processing event 0/176498 (0%)    Processing event 100000/176498 (56%)
+  Events processed: 176498
+  Events with jets: 567 (0.32125%)
+  Events selected (≥1 jet): 567 (0.32125%)
+
+Processing GQ_Events...
+  Found 504451 events
+    Processing event 0/504451 (0%)    Processing event 100000/504451 (19%)    Processing event 200000/504451 (39%)    Processing event 300000/504451 (59%)    Processing event 400000/504451 (79%)    Processing event 500000/504451 (99%)
+  Events processed: 504451
+  Events with jets: 3437 (0.681335%)
+  Events selected (≥1 jet): 3437 (0.681335%)
+
+Processing Combined_Events...
+  Found 999913 events
+    Processing event 0/999913 (0%)    Processing event 100000/999913 (10%)    Processing event 200000/999913 (20%)    Processing event 300000/999913 (30%)    Processing event 400000/999913 (40%)    Processing event 500000/999913 (50%)    Processing event 600000/999913 (60%)    Processing event 700000/999913 (70%)    Processing event 800000/999913 (80%)    Processing event 900000/999913 (90%)
+  Events processed: 999913
+  Events with jets: 7198 (0.719863%)
+  Events selected (≥1 jet): 7198 (0.719863%)
+
+Processing Resolved_Events...
+  Found 744002 events
+    Processing event 0/744002 (0%)    Processing event 100000/744002 (13%)    Processing event 200000/744002 (26%)    Processing event 300000/744002 (40%)    Processing event 400000/744002 (53%)    Processing event 500000/744002 (67%)    Processing event 600000/744002 (80%)    Processing event 700000/744002 (94%)
+  Events processed: 744002
+  Events with jets: 4591 (0.617068%)
+  Events selected (≥1 jet): 4591 (0.617068%)
+
+Processing Direct_Events...
+  Found 255911 events
+    Processing event 0/255911 (0%)    Processing event 100000/255911 (39%)    Processing event 200000/255911 (78%)
+  Events processed: 255911
+  Events with jets: 2607 (1.01871%)
+  Events selected (≥1 jet): 2607 (1.01871%)
+
+=============================================================================
+INTEGRATED JET SHAPE RESULTS
+=============================================================================
+Requirement: At least 1 jet passing cuts
+All Jets: ET > 17 GeV, -1 < η < 0
+=============================================================================
+
+     r      QQ_Events      GG_Events      GQ_EventsCombined_EventsResolved_Events  Direct_Events
+ -----  -------------  -------------  -------------  -------------  -------------  -------------
+   0.1         0.3038         0.1085         0.2574         0.2663         0.2385         0.3151
+   0.2         0.5765         0.2773         0.5065         0.5195         0.4780         0.5926
+   0.3         0.7145         0.4291         0.6545         0.6634         0.6261         0.7290
+   0.4         0.7935         0.5676         0.7450         0.7525         0.7224         0.8056
+   0.5         0.8436         0.6630         0.8079         0.8123         0.7885         0.8543
+   0.6         0.8797         0.7414         0.8517         0.8555         0.8367         0.8885
+   0.7         0.9066         0.8046         0.8864         0.8889         0.8748         0.9138
+   0.8         0.9279         0.8544         0.9149         0.9159         0.9060         0.9334
+   0.9         0.9445         0.8945         0.9372         0.9370         0.9303         0.9490
+   1.0         0.9531         0.9128         0.9486         0.9478         0.9427         0.9566
+
+=============================================================================
+Number of events contributing to each category:
+=============================================================================
+           QQ_Events: 3194 events
+           GG_Events: 567 events
+           GQ_Events: 3437 events
+     Combined_Events: 7198 events
+     Resolved_Events: 4591 events
+       Direct_Events: 2607 events
+
+=============================================================================
+OVERALL STATISTICS
+=============================================================================
+Total events processed: 2999739
+Total events selected: 21594 (0.7199%)
+
+=============================================================================
+ANALYSIS COMPLETED SUCCESSFULLY!
+Log file: int_alljets_hera300_pT7_eta_-1.000000_0.000000_etMin_17.log
+=============================================================================
