@@ -1,0 +1,243 @@
+=============================================================================
+PHOTOPRODUCTION EVENT GENERATION
+=============================================================================
+Output File: eic105.root
+Event Generation Configuration:
+  Number of Events: 1000000
+  Proton Energy:    275 GeV
+  Electron Energy:  18 GeV
+  pT Hat Min:       5 GeV
+  Q2 Max:           1 GeV^2
+=============================================================================
+
+
+ *------------------------------------------------------------------------------------* 
+ |                                                                                    | 
+ |  *------------------------------------------------------------------------------*  | 
+ |  |                                                                              |  | 
+ |  |                                                                              |  | 
+ |  |   PPP   Y   Y  TTTTT  H   H  III    A      Welcome to the Lund Monte Carlo!  |  | 
+ |  |   P  P   Y Y     T    H   H   I    A A     This is PYTHIA version 8.311      |  | 
+ |  |   PPP     Y      T    HHHHH   I   AAAAA    Last date of change:  8 Mar 2024  |  | 
+ |  |   P       Y      T    H   H   I   A   A                                      |  | 
+ |  |   P       Y      T    H   H  III  A   A    Now is 31 May 2025 at 01:13:45    |  | 
+ |  |                                                                              |  | 
+ |  |   Program documentation and an archive of historic versions is found on:     |  | 
+ |  |                                                                              |  | 
+ |  |                               https://pythia.org/                            |  | 
+ |  |                                                                              |  | 
+ |  |   PYTHIA is authored by a collaboration consisting of:                       |  | 
+ |  |                                                                              |  | 
+ |  |   Javira Altmann, Christian Bierlich, Naomi Cooke, Nishita Desai,            |  | 
+ |  |   Leif Gellersen, Ilkka Helenius, Philip Ilten, Leif Lonnblad,               |  | 
+ |  |   Stephen Mrenna, Christian Preuss, Torbjorn Sjostrand, Peter Skands,        |  | 
+ |  |   Marius Utheim, and Rob Verheyen.                                           |  | 
+ |  |                                                                              |  | 
+ |  |   The complete list of authors, including contact information and            |  | 
+ |  |   affiliations, can be found on https://pythia.org/.                         |  | 
+ |  |   Problems or bugs should be reported on email at authors@pythia.org.        |  | 
+ |  |                                                                              |  | 
+ |  |   The main program reference is C. Bierlich et al,                           |  | 
+ |  |   'A comprehensive guide to the physics and usage of Pythia 8.3',            |  | 
+ |  |   SciPost Phys. Codebases 8-r8.3 (2022) [arXiv:2203.11601 [hep-ph]]          |  | 
+ |  |                                                                              |  | 
+ |  |   PYTHIA is released under the GNU General Public Licence version 2 or later.|  | 
+ |  |   Please respect the MCnet Guidelines for Event Generator Authors and Users. |  | 
+ |  |                                                                              |  | 
+ |  |   Disclaimer: this program comes without any guarantees.                     |  | 
+ |  |   Beware of errors and use common sense when interpreting results.           |  | 
+ |  |                                                                              |  | 
+ |  |   Copyright (C) 2024 Torbjorn Sjostrand                                      |  | 
+ |  |                                                                              |  | 
+ |  |                                                                              |  | 
+ |  *------------------------------------------------------------------------------*  | 
+ |                                                                                    | 
+ *------------------------------------------------------------------------------------* 
+
+ PYTHIA Warning in PhaseSpace::trialKin123: maximum for cross section violated
+
+ *-------  PYTHIA Process Initialization  --------------------------*
+ |                                                                  |
+ | We collide p+ with e- at a CM energy of 1.407e+02 GeV            |
+ |                                                                  |
+ |------------------------------------------------------------------|
+ |                                                    |             |
+ | Subprocess                                    Code |   Estimated |
+ |                                                    |    max (mb) |
+ |                                                    |             |
+ |------------------------------------------------------------------|
+ |                                                    |             |
+ | g g -> g g                                     111 |   6.750e-05 |
+ | g g -> q qbar (uds)                            112 |   1.537e-06 |
+ | q g -> q g                                     113 |   1.830e-04 |
+ | q q(bar)' -> q q(bar)'                         114 |   7.415e-05 |
+ | q qbar -> g g                                  115 |   1.366e-06 |
+ | q qbar -> q' qbar' (uds)                       116 |   6.860e-07 |
+ | g g -> c cbar                                  121 |   4.158e-07 |
+ | q qbar -> c cbar                               122 |   2.060e-07 |
+ | g g -> b bbar                                  123 |   8.834e-08 |
+ | q qbar -> b bbar                               124 |   9.441e-08 |
+ | g gamma -> q qbar (uds)                        271 |   1.388e-05 |
+ | g gamma -> c cbar                              272 |   8.018e-06 |
+ | g gamma -> b bbar                              273 |   7.918e-07 |
+ | q gamma -> q g (udscb)                         274 |   1.486e-05 |
+ | gamma g -> q qbar (uds)                        281 |   1.407e-09 |
+ | gamma g -> c cbar                              282 |   8.192e-10 |
+ | gamma g -> b bbar                              283 |   8.514e-11 |
+ | gamma q -> q g (udscb)                         284 |   3.844e-09 |
+ |                                                                  |
+ *-------  End PYTHIA Process Initialization -----------------------*
+PYTHIA initialized successfully.
+
+Starting event generation...
+Progress: 0% 
+--- First Event Debug ---
+
+ --------  PYTHIA Event Listing  (hard process)  -----------------------------------------------------------------------------------
+ 
+    no         id  name            status     mothers   daughters     colours      p_x        p_y        p_z         e          m 
+     0         90  (system)           -11     0     0     0     0     0     0      0.000      0.000    256.998    293.000    140.715
+     1       2212  (p+)               -12     0     0     3     0     0     0      0.000      0.000    274.998    275.000      0.938
+     2         11  (e-)               -12     0     0     4     0     0     0      0.000      0.000    -18.000     18.000      0.001
+     3       2212  (p+)               -13     1     0     5     0     0     0      0.000      0.000    274.998    275.000      0.938
+     4         22  (gamma)            -13     2     0     6     0     0     0      0.000      0.000     -5.036      5.036      0.000
+     5         -1  (dbar)             -21     3     0     7     8     0   101      0.000      0.000     58.947     58.947      0.000
+     6         -3  (sbar)             -21     4     0     7     8     0   102      0.000      0.000     -0.468      0.468      0.000
+     7         -1  dbar                23     5     6     0     0     0   102     -5.156     -0.096     34.237     34.625      0.330
+     8         -3  sbar                23     5     6     0     0     0   101      5.156      0.096     24.242     24.790      0.500
+                                   Charge sum:  0.667           Momentum sum:      0.000      0.000     58.479     59.415     10.500
+
+ --------  End PYTHIA Event Listing  -----------------------------------------------------------------------------------------------
+------------------------
+ PYTHIA Error in BeamRemnants::setKinematics: kinematics construction failed after retrying 10 times
+ PYTHIA Error in Pythia::next: partonLevel failed; try again
+ PYTHIA Warning in SimpleSpaceShower::pT2nextQCD: weight above unity
+ PYTHIA Warning in MultipartonInteractions::scatter: no room for remnants for given scattering
+ PYTHIA Abort from Pythia::next: parton+hadronLevel failed; giving up
+ PYTHIA Warning in SimpleSpaceShower::pT2nextQCD: small daughter PDF
+ PYTHIA Warning in TauDecays::decay: unknown correlated tau production, assuming from unpolarized photon
+ PYTHIA Error in SimpleSpaceShower::pT2nearThreshold: stuck in loop
+ PYTHIA Warning in HadronWidths::pickMasses: angular momentum and running widths not used
+ PYTHIA Error in BeamRemnants::setOneRemnKinematics: beam remnant invariant mass too large
+10% 
+ Pythia::next(): 100000 events have been generated 
+20% 
+ Pythia::next(): 200000 events have been generated 
+ PYTHIA Warning in SimpleSpaceShower::branch: used up beam momentum; retrying parton level
+ PYTHIA Error in BeamRemnants::setKinematics: no momentum left for beam remnants
+ PYTHIA Error in MiniStringFragmentation::fragment: no 1- or 2-body state found above mass threshold
+ PYTHIA Error in HadronLevel::next: ministring fragmentation failed
+ PYTHIA Error in Pythia::next: hadronLevel failed; try again
+30% 
+ Pythia::next(): 300000 events have been generated 
+40% 
+ Pythia::next(): 400000 events have been generated 
+50% 
+ Pythia::next(): 500000 events have been generated 
+60% 
+ Pythia::next(): 600000 events have been generated 
+70% 
+ Pythia::next(): 700000 events have been generated 
+80% 
+ Pythia::next(): 800000 events have been generated 
+90% 
+ Pythia::next(): 900000 events have been generated 
+100%
+
+
+ *-------  PYTHIA Event and Cross Section Statistics  -------------------------------------------------------------*
+ |                                                                                                                 |
+ | Subprocess                                    Code |            Number of events       |      sigma +- delta    |
+ |                                                    |       Tried   Selected   Accepted |     (estimated) (mb)   |
+ |                                                    |                                   |                        |
+ |-----------------------------------------------------------------------------------------------------------------|
+ |                                                    |                                   |                        |
+ | g g -> g g                                     111 |     1648388     136606     136606 |   5.596e-06  6.794e-09 |
+ | g g -> q qbar (uds)                            112 |       37602       3439       3439 |   1.408e-07  1.113e-09 |
+ | q g -> q g                                     113 |     4469857     387692     387438 |   1.587e-05  9.783e-09 |
+ | q q(bar)' -> q q(bar)'                         114 |     1814080     147160     147006 |   6.031e-06  6.500e-09 |
+ | q qbar -> g g                                  115 |       33355       3388       3388 |   1.398e-07  8.575e-10 |
+ | q qbar -> q' qbar' (uds)                       116 |       16965       2367       2366 |   9.793e-08  7.855e-10 |
+ | g g -> c cbar                                  121 |       10199        977        977 |   4.018e-08  6.090e-10 |
+ | q qbar -> c cbar                               122 |        5061        746        746 |   2.922e-08  4.277e-10 |
+ | g g -> b bbar                                  123 |        2166        249        249 |   1.007e-08  3.254e-10 |
+ | q qbar -> b bbar                               124 |        2406        296        296 |   1.180e-08  2.662e-10 |
+ | g gamma -> q qbar (uds)                        271 |      339274     118475     118475 |   4.844e-06  6.701e-09 |
+ | g gamma -> c cbar                              272 |      196335      70406      70406 |   2.877e-06  5.258e-09 |
+ | g gamma -> b bbar                              273 |       19474       6598       6598 |   2.665e-07  1.664e-09 |
+ | q gamma -> q g (udscb)                         274 |      362972     121572     121571 |   4.977e-06  6.862e-09 |
+ | gamma g -> q qbar (uds)                        281 |          42          8          8 |   1.689e-10  3.726e-11 |
+ | gamma g -> c cbar                              282 |          23          3          3 |   9.701e-11  3.029e-11 |
+ | gamma g -> b bbar                              283 |           0          0          0 |   0.000e+00  0.000e+00 |
+ | gamma q -> q g (udscb)                         284 |         109         18         18 |   5.926e-10  6.116e-11 |
+ |                                                    |                                   |                        |
+ | sum                                                |     8958308    1000000     999590 |   4.094e-05  1.760e-08 |
+ |                                                                                                                 |
+ *-------  End PYTHIA Event and Cross Section Statistics ----------------------------------------------------------*
+
+ *-------  PYTHIA Error and Warning Messages Statistics  ----------------------------------------------------------* 
+ |                                                                                                                 | 
+ |  times   message                                                                                                | 
+ |                                                                                                                 | 
+ |    410   Abort from Pythia::next: parton+hadronLevel failed; giving up                                          | 
+ |  57535   Error in BeamRemnants::setKinematics: kinematics construction failed after retrying 10 times           | 
+ |     74   Error in BeamRemnants::setKinematics: no momentum left for beam remnants                               | 
+ |    149   Error in BeamRemnants::setOneRemnKinematics: beam remnant invariant mass too large                     | 
+ |      5   Error in HadronLevel::next: ministring fragmentation failed                                            | 
+ |      5   Error in MiniStringFragmentation::fragment: no 1- or 2-body state found above mass threshold           | 
+ |      5   Error in Pythia::next: hadronLevel failed; try again                                                   | 
+ |   4595   Error in Pythia::next: partonLevel failed; try again                                                   | 
+ |     66   Error in SimpleSpaceShower::pT2nearThreshold: stuck in loop                                            | 
+ |      6   Warning in HadronWidths::pickMasses: angular momentum and running widths not used                      | 
+ |   1243   Warning in MultipartonInteractions::scatter: no room for remnants for given scattering                 | 
+ |      1   Warning in PhaseSpace::trialKin123: maximum for cross section violated                                 | 
+ |    226   Warning in SimpleSpaceShower::branch: used up beam momentum; retrying parton level                     | 
+ |   3163   Warning in SimpleSpaceShower::pT2nextQCD: small daughter PDF                                           | 
+ |    125   Warning in SimpleSpaceShower::pT2nextQCD: weight above unity                                           | 
+ |      1   Warning in TauDecays::decay: unknown correlated tau production, assuming from unpolarized photon       | 
+ |                                                                                                                 | 
+ *-------  End PYTHIA Error and Warning Messages Statistics  ------------------------------------------------------* 
+
+=============================================================================
+EVENT GENERATION SUMMARY
+=============================================================================
+Total Events Generated:    1000000
+Valid Events:              999590
+
+Event Classification:
+  QQ Events:               350587 (4e+01%)
+  GG Events:               139994 (1e+01%)
+  GQ Events:               509009 (5e+01%)
+  Unclassified:            0 (0%)
+
+Photoproduction Type:
+  Resolved Events:         682540 (7e+01%)
+  Direct Events:           317050 (3e+01%)
+
+Cross Section Information:
+  Total Cross Section:     1.000e+00 mb
+  QQ Cross Section:        3.507e-01 mb (35.1%)
+  GG Cross Section:        1.4e-01 mb (14.0%)
+  GQ Cross Section:        5.1e-01 mb (50.9%)
+  Total Percentage:        100.0% (OK)
+
+Writing output file...
+
+=============================================================================
+EVENT GENERATION COMPLETED SUCCESSFULLY
+=============================================================================
+Output File: eic105.root
+
+Trees Created:
+  QQ_Events       :   350587 events
+  GG_Events       :   139994 events
+  GQ_Events       :   509009 events
+  Combined_Events :   999590 events
+  Resolved_Events :   682540 events
+  Direct_Events   :   317050 events
+
+Data ready for analysis!
+Each tree contains final state particles with complete 4-momentum info.
+=============================================================================
+
+Event generation completed successfully!

@@ -1,0 +1,99 @@
+=============================================================================
+JET RECONSTRUCTION ANALYSIS FOR HERA PHOTOPRODUCTION EVENTS
+=============================================================================
+Analysis Parameters:
+  Analysis Mode:    DIJET ONLY
+  Jet Algorithm:    Anti-kT
+  Jet Radius:       1
+  Min Jet ET:       0 GeV
+  Jet Eta Range:    [-4, 4]
+  Min Particle pT:  0.1 GeV
+
+Dijet Selection Cuts:
+  Leading Jet ET:   > 10 GeV
+  Subleading Jet ET:> 7 GeV
+  Leading Jet |η|:  < 4.5
+  Subleading |η|:   < 4.5
+=============================================================================
+
+Successfully opened input file: /Users/siddharthsingh/Analysis/ph-new/evt/allevents_pt7GeV/eic105/eic105.root
+Log file: dijets_eic105_R10_EtMin0_10_7.log
+
+Processing QQ_Events...
+  Found 378245 events
+    Processing event 0/378245 (0%)    Processing event 100000/378245 (26%)    Processing event 200000/378245 (52%)    Processing event 300000/378245 (79%)
+  Events processed: 378245
+  Events with ≥2 jets: 378209 (99.9905%)
+  Events passing dijet cuts: 28254 (7.46976%)
+  Total jets saved: 56508
+  Average jets/selected event: 2
+
+Processing GG_Events...
+  Found 107066 events
+    Processing event 0/107066 (0%)    Processing event 100000/107066 (93%)
+  Events processed: 107066
+  Events with ≥2 jets: 107066 (100%)
+  Events passing dijet cuts: 4508 (4.21049%)
+  Total jets saved: 9016
+  Average jets/selected event: 2
+
+Processing GQ_Events...
+  Found 514133 events
+    Processing event 0/514133 (0%)    Processing event 100000/514133 (19%)    Processing event 200000/514133 (38%)    Processing event 300000/514133 (58%)    Processing event 400000/514133 (77%)    Processing event 500000/514133 (97%)
+  Events processed: 514133
+  Events with ≥2 jets: 514095 (99.9926%)
+  Events passing dijet cuts: 29226 (5.68452%)
+  Total jets saved: 58452
+  Average jets/selected event: 2
+
+Processing Combined_Events...
+  Found 999444 events
+    Processing event 0/999444 (0%)    Processing event 100000/999444 (10%)    Processing event 200000/999444 (20%)    Processing event 300000/999444 (30%)    Processing event 400000/999444 (40%)    Processing event 500000/999444 (50%)    Processing event 600000/999444 (60%)    Processing event 700000/999444 (70%)    Processing event 800000/999444 (80%)    Processing event 900000/999444 (90%)
+  Events processed: 999444
+  Events with ≥2 jets: 999370 (99.9926%)
+  Events passing dijet cuts: 61988 (6.20225%)
+  Total jets saved: 123976
+  Average jets/selected event: 2
+
+Processing Resolved_Events...
+  Found 624866 events
+    Processing event 0/624866 (0%)    Processing event 100000/624866 (16%)    Processing event 200000/624866 (32%)    Processing event 300000/624866 (48%)    Processing event 400000/624866 (64%)    Processing event 500000/624866 (80%)    Processing event 600000/624866 (96%)
+  Events processed: 624866
+  Events with ≥2 jets: 624856 (99.9984%)
+  Events passing dijet cuts: 37582 (6.01441%)
+  Total jets saved: 75164
+  Average jets/selected event: 2
+
+Processing Direct_Events...
+  Found 374578 events
+    Processing event 0/374578 (0%)    Processing event 100000/374578 (26%)    Processing event 200000/374578 (53%)    Processing event 300000/374578 (80%)
+  Events processed: 374578
+  Events with ≥2 jets: 374514 (99.9829%)
+  Events passing dijet cuts: 24406 (6.5156%)
+  Total jets saved: 48812
+  Average jets/selected event: 2
+
+=============================================================================
+ANALYSIS COMPLETED SUCCESSFULLY!
+=============================================================================
+Output file: dijets_eic105_R10_EtMin0_10_7.root
+Log file: dijets_eic105_R10_EtMin0_10_7.log
+
+Overall Statistics:
+  Total events processed: 2998332
+  Total events selected: 185964 (6.20225%)
+
+For each category, the following are saved:
+  - Jet trees with basic properties (ET, px, py, pz, eta, phi, mass)
+  - Dijet-specific variables (masses, angles, cuts flags)
+  - Basic distribution histograms
+
+Jets are reconstructed using anti-kT algorithm with:
+  - R = 1
+  - ET > 0 GeV
+  - -4 < eta < 4
+
+Dijet selection applied with:
+  - Leading jet ET > 10 GeV
+  - Subleading jet ET > 7 GeV
+=============================================================================

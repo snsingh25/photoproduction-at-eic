@@ -1,0 +1,101 @@
+=============================================================================
+EFFICIENCY AND PURITY ANALYSIS FOR DIJET QUARK/GLUON CLASSIFICATION
+=============================================================================
+Analysis Parameters:
+  Analysis Type:        Dijet Events
+  Jet Algorithm:        Anti-kT
+  Jet Radius:           1
+  Minimum Jet ET:       10 GeV (both jets)
+  Jet Eta Range:        [-4, 4]
+  Shape Radius:         r = 0.3
+  Thin Jet Cut:         Ψ(r) > 0.8
+  Thick Jet Cut:        Ψ(r) < 0.6
+=============================================================================
+
+Input File: /Users/siddharthsingh/Analysis/ph-new/evt/allevents_pt7GeV/hera300_pT7/hera300_pT7.root
+Log File: /Users/siddharthsingh/Analysis/ph-new/evt/allevents_pt7GeV/hera300_pT7/hera300_pT7.log
+
+Successfully opened input file.
+
+Found 999913 events in Combined_Events tree.
+
+Successfully set up input branches.
+
+Starting event processing...
+Processing event 0/999913 (0%)Processing event 100000/999913 (10%)Processing event 200000/999913 (20%)Processing event 300000/999913 (30%)Processing event 400000/999913 (40%)Processing event 500000/999913 (50%)Processing event 600000/999913 (60%)Processing event 700000/999913 (70%)Processing event 800000/999913 (80%)Processing event 900000/999913 (90%)
+
+Event processing completed!
+Events processed: 999913
+Dijet events: 241461
+Selection efficiency: 24.15%
+
+=============================================================================
+EFFICIENCY AND PURITY ANALYSIS RESULTS
+=============================================================================
+Classification Cuts Used:
+  Thin Jets (Quark-like):  Ψ(r=0.30) > 0.80
+  Thick Jets (Gluon-like): Ψ(r=0.30) < 0.60
+
+Dijet Event Statistics:
+  Total Leading Jets Analyzed:    241461
+  Total Subleading Jets Analyzed: 241461
+
+LEADING JET CLASSIFICATION:
+  Classified as Thin:   52661 (21.81%)
+  Classified as Thick:  119789 (49.61%)
+  Unclassified:         69011 (28.58%)
+
+SUBLEADING JET CLASSIFICATION:
+  Classified as Thin:   44551 (18.45%)
+  Classified as Thick:  131110 (54.30%)
+  Unclassified:         65800 (27.25%)
+
+LEADING JET SUBPROCESS CONTRIBUTIONS:
+Thin Jets (Quark-like classification):
+  QQ: 27924 (53.0%)
+  GG: 1966 (3.7%)
+  GQ: 22771 (43.2%)
+
+Thick Jets (Gluon-like classification):
+  QQ: 25039 (20.9%)
+  GG: 35414 (29.6%)
+  GQ: 59336 (49.5%)
+
+SUBLEADING JET SUBPROCESS CONTRIBUTIONS:
+Thin Jets (Quark-like classification):
+  QQ: 25114 (56.4%)
+  GG: 1640 (3.7%)
+  GQ: 17797 (39.9%)
+
+Thick Jets (Gluon-like classification):
+  QQ: 27856 (21.2%)
+  GG: 36560 (27.9%)
+  GQ: 66694 (50.9%)
+
+=============================================================================
+EFFICIENCY ANALYSIS PER SUBPROCESS
+=============================================================================
+Subprocess | Total Jets | Thin Classification | Thick Classification | Efficiency
+-----------|------------|--------------------|--------------------|------------
+        QQ |     158674 |              53038 |              52895 | T:0.334 Tk:0.333
+        GG |      91870 |               3606 |              71974 | T:0.039 Tk:0.783
+        GQ |     232378 |              40568 |             126030 | T:0.175 Tk:0.542
+
+=============================================================================
+PURITY ANALYSIS
+=============================================================================
+Combined Thin Jets Purity:
+  QQ purity: 0.546 (54.559%)
+  GG purity: 0.037 (3.709%)
+  GQ purity: 0.417 (41.731%)
+
+Combined Thick Jets Purity:
+  QQ purity: 0.211 (21.082%)
+  GG purity: 0.287 (28.686%)
+  GQ purity: 0.502 (50.231%)
+
+=============================================================================
+
+Analysis completed successfully!
+Results saved to: /Users/siddharthsingh/Analysis/ph-new/evt/allevents_pt7GeV/hera300_pT7/hera300_pT7.log
+=============================================================================

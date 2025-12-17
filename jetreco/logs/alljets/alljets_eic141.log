@@ -1,0 +1,112 @@
+=============================================================================
+JET RECONSTRUCTION ANALYSIS FOR HERA PHOTOPRODUCTION EVENTS
+=============================================================================
+Analysis Parameters:
+  Jet Algorithm:    Anti-kT
+  Jet Radius:       1
+  Min Jet ET:       10 GeV
+  Jet Eta Range:    [-4, 4]
+  Min Particle pT:  0.1 GeV
+=============================================================================
+
+Successfully opened input file: /Users/siddharthsingh/Analysis/ph-new/evt/allevents_pt7GeV/eic141/eic141.root
+
+Processing QQ_Events...
+  Found 391413 events
+  Available branches: eventID processCode processType photonMode isResolved isDirect crossSection inelasticity photonEnergy scatteredElectronEnergy px py pz energy pT eta phi mass pdgId status isCharged isHadron scElectron_px scElectron_py scElectron_pz scElectron_E scElectron_pT scElectron_eta scElectron_phi 
+    Processing event 0/391413 (0%)
+    First event debug: 50 particles
+    First particle: px=-0.00011434, py=-5.85593e-05, pz=-9.46204, E=9.46204, eta=-11.9003
+#--------------------------------------------------------------------------
+#                         FastJet release 3.4.2
+#                 M. Cacciari, G.P. Salam and G. Soyez                  
+#     A software package for jet finding and analysis at colliders      
+#                           http://fastjet.fr                           
+#	                                                                      
+# Please cite EPJC72(2012)1896 [arXiv:1111.6097] if you use this package
+# for scientific work and optionally PLB641(2006)57 [hep-ph/0512210].   
+#                                                                       
+# FastJet is provided without warranty under the GNU GPL v2 or higher.  
+# It uses T. Chan's closest pair algorithm, S. Fortune's Voronoi code
+# and 3rd party plugin jet algorithms. See COPYING file for details.
+#--------------------------------------------------------------------------
+    Processing event 100000/391413 (25%)    Processing event 200000/391413 (51%)    Processing event 300000/391413 (76%)
+  Events processed: 391413
+  Events with jets: 157438 (40.223%)
+  Total jets found: 233890
+  Average jets/event: 1.4856
+
+Processing GG_Events...
+  Found 93259 events
+  Available branches: eventID processCode processType photonMode isResolved isDirect crossSection inelasticity photonEnergy scatteredElectronEnergy px py pz energy pT eta phi mass pdgId status isCharged isHadron scElectron_px scElectron_py scElectron_pz scElectron_E scElectron_pT scElectron_eta scElectron_phi 
+    Processing event 0/93259 (0%)
+    First event debug: 56 particles
+    First particle: px=0.00428146, py=0.000774572, pz=-12.1833, E=12.1833, eta=-8.63057
+
+  Events processed: 93259
+  Events with jets: 42849 (45.9462%)
+  Total jets found: 59739
+  Average jets/event: 1.39417
+
+Processing GQ_Events...
+  Found 514961 events
+  Available branches: eventID processCode processType photonMode isResolved isDirect crossSection inelasticity photonEnergy scatteredElectronEnergy px py pz energy pT eta phi mass pdgId status isCharged isHadron scElectron_px scElectron_py scElectron_pz scElectron_E scElectron_pT scElectron_eta scElectron_phi 
+    Processing event 0/514961 (0%)
+    First event debug: 38 particles
+    First particle: px=-0.131575, py=-0.00635066, pz=-16.4316, E=16.4321, eta=-5.51938
+    Processing event 100000/514961 (19%)    Processing event 200000/514961 (38%)    Processing event 300000/514961 (58%)    Processing event 400000/514961 (77%)    Processing event 500000/514961 (97%)
+  Events processed: 514961
+  Events with jets: 190605 (37.0135%)
+  Total jets found: 275818
+  Average jets/event: 1.44707
+
+Processing Combined_Events...
+  Found 999633 events
+  Available branches: eventID processCode processType photonMode isResolved isDirect crossSection inelasticity photonEnergy scatteredElectronEnergy px py pz energy pT eta phi mass pdgId status isCharged isHadron scElectron_px scElectron_py scElectron_pz scElectron_E scElectron_pT scElectron_eta scElectron_phi 
+    Processing event 0/999633 (0%)
+    First event debug: 50 particles
+    First particle: px=-0.00011434, py=-5.85593e-05, pz=-9.46204, E=9.46204, eta=-11.9003
+    Processing event 100000/999633 (10%)    Processing event 200000/999633 (20%)    Processing event 300000/999633 (30%)    Processing event 400000/999633 (40%)    Processing event 500000/999633 (50%)    Processing event 600000/999633 (60%)    Processing event 700000/999633 (70%)    Processing event 800000/999633 (80%)    Processing event 900000/999633 (90%)
+  Events processed: 999633
+  Events with jets: 390892 (39.1036%)
+  Total jets found: 569447
+  Average jets/event: 1.45679
+
+Processing Resolved_Events...
+  Found 614634 events
+  Available branches: eventID processCode processType photonMode isResolved isDirect crossSection inelasticity photonEnergy scatteredElectronEnergy px py pz energy pT eta phi mass pdgId status isCharged isHadron scElectron_px scElectron_py scElectron_pz scElectron_E scElectron_pT scElectron_eta scElectron_phi 
+    Processing event 0/614634 (0%)
+    First event debug: 38 particles
+    First particle: px=-0.131575, py=-0.00635066, pz=-16.4316, E=16.4321, eta=-5.51938
+    Processing event 100000/614634 (16%)    Processing event 200000/614634 (32%)    Processing event 300000/614634 (48%)    Processing event 400000/614634 (65%)    Processing event 500000/614634 (81%)    Processing event 600000/614634 (97%)
+  Events processed: 614634
+  Events with jets: 269091 (43.7807%)
+  Total jets found: 383308
+  Average jets/event: 1.42445
+
+Processing Direct_Events...
+  Found 384999 events
+  Available branches: eventID processCode processType photonMode isResolved isDirect crossSection inelasticity photonEnergy scatteredElectronEnergy px py pz energy pT eta phi mass pdgId status isCharged isHadron scElectron_px scElectron_py scElectron_pz scElectron_E scElectron_pT scElectron_eta scElectron_phi 
+    Processing event 0/384999 (0%)
+    First event debug: 50 particles
+    First particle: px=-0.00011434, py=-5.85593e-05, pz=-9.46204, E=9.46204, eta=-11.9003
+    Processing event 100000/384999 (25%)    Processing event 200000/384999 (51%)    Processing event 300000/384999 (77%)
+  Events processed: 384999
+  Events with jets: 121801 (31.6367%)
+  Total jets found: 186139
+  Average jets/event: 1.52822
+
+=============================================================================
+ANALYSIS COMPLETED SUCCESSFULLY!
+=============================================================================
+Output file: jets_eic141_analysis.root
+
+For each category, the following are saved:
+  - Jet trees with basic properties (ET, px, py, pz, eta, phi, mass)
+  - Basic distribution histograms
+
+Jets are reconstructed using anti-kT algorithm with:
+  - R = 1
+  - ET > 10 GeV
+  - -4 < eta < 4
+=============================================================================
